@@ -1,3 +1,9 @@
+/*
+	To run the file use
+	g++ -DUNICODE -std=c++17 path_to_cpp
+	eg: g++ -DUNICODE -std=c++17 Defending_Boundaries_Game.cpp
+*/
+
 #include <Windows.h>
 #include "S_PhysicsMath.h"
 #include <iostream>
@@ -184,8 +190,6 @@ int main()
 	{
 		Game_Vairables::ImgLine.iX = 65;
 	}
-
-	// PlaySoundW(L"My_Life_Is_Party.wav", NULL, SND_ASYNC | SND_FILENAME);
 
 	while (!Game_Vairables::GameTime.IsTimeOver())
 	{
